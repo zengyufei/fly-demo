@@ -138,6 +138,15 @@
         </dependency>
         <!-- 二维码生成 end -->
 
+        <!-- 测试框架 start -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <!-- 测试框架 end -->
+
+
     </dependencies>
 
 

@@ -1,7 +1,8 @@
-package com.zyf.test.多线程.不使用volatile;
+package com.zyf.test.多线程.使用和不使用volatile;
 
-public class 运行 {
-    private static boolean bChanged;
+public class 用volatile {
+
+    private static volatile boolean bChanged;
 
     public static void main(String[] args) throws InterruptedException {
         Thread 线程一 = new Thread() {
@@ -12,8 +13,6 @@ public class 运行 {
                     if (bChanged == !bChanged) {
                         System.out.println("!=");
                         System.exit(0);
-                    } else {
-                        System.out.println("死循环");
                     }
                 }
             }
