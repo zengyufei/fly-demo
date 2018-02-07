@@ -54,7 +54,7 @@
             <!-- json 解析工具，常用 -->
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.25</version>
+            <version>1.2.44</version>
         </dependency>
 
         <dependency>
