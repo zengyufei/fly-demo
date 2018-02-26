@@ -34,7 +34,6 @@ public class 快排2 {
         Integer[] arr2 = sort(rightArr);
         Integer[] arr1 = sort(leftArr);
         return 合并(arr1, key, arr2);
-
     }
 
     private static Integer[] 合并(Integer[] arr1, Integer key, Integer[] arr2) {
